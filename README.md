@@ -1,10 +1,10 @@
 # PS4-FTP-IP-Set
 Simple program to change the IP address of PS4's FTP payload.
 
-#Compile Dependencies: 
+# Compile Dependencies: 
 QT5 https://github.com/qt/qt5
 
-#How to use
+# How to use
 1. Get the latest release at https://github.com/dbaaz/PS4-FTP-IP-Set/releases (Download PS4-FTP-IP-Set.zip)
 2. Extract the zip file anywhere
 3. Open FTPIPSet.exe > Select your FTP Payload(Use ftp.bin included with exe) > Enter your PS4's IP address and click on Set.
