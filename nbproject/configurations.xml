@@ -4,7 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>SetData.h</itemPath>
+      <itemPath>DataClass.h</itemPath>
       <itemPath>WindowMain.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -15,7 +15,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>SetData.cpp</itemPath>
+      <itemPath>DataClass.cpp</itemPath>
       <itemPath>WindowMain.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -35,7 +35,7 @@
   <confs>
     <conf name="Debug" type="4">
       <toolsSet>
-        <compilerSet>MinGW_1|MinGW</compilerSet>
+        <compilerSet>default</compilerSet>
         <dependencyChecking>true</dependencyChecking>
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
@@ -44,9 +44,9 @@
       </qt>
       <compileType>
       </compileType>
-      <item path="SetData.cpp" ex="false" tool="1" flavor2="0">
+      <item path="DataClass.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="SetData.h" ex="false" tool="3" flavor2="0">
+      <item path="DataClass.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="WindowMain.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -80,15 +80,10 @@
         <asmTool>
           <developmentMode>5</developmentMode>
         </asmTool>
-        <linkerTool>
-          <linkerLibItems>
-            <linkerOptionItem>-static-libgcc -static-libstdc++</linkerOptionItem>
-          </linkerLibItems>
-        </linkerTool>
       </compileType>
-      <item path="SetData.cpp" ex="false" tool="1" flavor2="0">
+      <item path="DataClass.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="SetData.h" ex="false" tool="3" flavor2="0">
+      <item path="DataClass.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="WindowMain.cpp" ex="false" tool="1" flavor2="0">
       </item>
